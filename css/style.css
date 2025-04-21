@@ -181,13 +181,13 @@ img.animated.pulse {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(230, 225, 225, 0.1);
     clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
 .feature-item .border {
     position: relative;
-    border-color: rgba(255, 255, 255, .2) !important;
+    border-color: rgba(0, 108, 185, 0.295) !important;
     z-index: 1;
 }
 
