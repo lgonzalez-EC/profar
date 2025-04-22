@@ -131,11 +131,13 @@ img.animated.pulse {
 /*** Hero Header ***/
 .hero-header {
     position: relative;
+    overflow: hidden;
     margin-top: -85px;
     padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     background: url(../img/bg.webp) center no-repeat;
     background-size: cover;
+    margin-bottom: 0; /* Asegúrate de que no haya margen inferior */
 }
 
 .hero-header::before {
@@ -158,11 +160,6 @@ img.animated.pulse {
     color: var(--bs-light);
 }
 
-.hero-header {
-    position: relative;
-    overflow: hidden;
-}
-
 .hero-header .wave {
     position: absolute;
     bottom: 0;
@@ -170,6 +167,9 @@ img.animated.pulse {
     width: 100%;
     height: auto;
     z-index: 1;
+    display: block;
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier padding */
 }
 
 
@@ -356,7 +356,7 @@ img.animated.pulse {
 
 .contact-info-item .border {
     position: relative;
-    border-color: rgba(255, 255, 255, .2) !important;
+    border-color: rgba(0, 108, 185, 0.295) !important;
     z-index: 1;
 }
 
