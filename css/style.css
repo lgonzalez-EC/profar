@@ -1,4 +1,9 @@
 /********** Template CSS **********/
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -138,6 +143,7 @@ img.animated.pulse {
     background: url(../img/bg.webp) center no-repeat;
     background-size: cover;
     margin-bottom: 0; /* Asegúrate de que no haya margen inferior */   
+    background-color: #ffffff; /* Color de fondo que coincide con el SVG */
 }
 
 /** Efecto de linea en diagonal **/
@@ -163,14 +169,11 @@ img.animated.pulse {
 
 .hero-header .wave {
     position: absolute;
-    bottom: 0;
+    bottom: -1px; /* Extiende el SVG ligeramente hacia abajo */
     left: 0;
-    width: 100%;
+    width: 101%; /* Asegúrate de que cubra completamente el ancho */
     height: auto;
     z-index: 1;
-    display: block;
-    margin: 0; /* Elimina cualquier margen */
-    padding: 0; /* Elimina cualquier padding */
 }
 
 
